@@ -1,0 +1,111 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  font-size: 90px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: khaki;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: white;
+  padding: 10px;
+  font-size: 32px;
+}
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.whiteAboveBrushes {
+  background-color: white;
+  padding: 20px;
+  font-size: 30px;
+  height: 50px;
+
+}
+
+.whiteAboveImage {
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  height: 2px;
+}
+.image {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: left;
+}
+.Headers {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: left;
+}
+.subtext {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-size: 15px;
+  font-family: Helvetica;
+  text-align: left;
+}
+
+.blueText {
+  color: blue;
+}
+
+.Frames {
+  background-color: lightcoral;
+  padding: 10px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  height: 7px;
+  vertical-align:text-top;
+  text-align: left;
+  color: white;
+}
+
+.Paint {
+  background-color: skyblue;
+  padding: 10px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  height: 7px;
+  vertical-align:text-top;
+  text-align: left;
+  color: white;
+}
+.Brushes {
+  background-color: mediumspringgreen;
+  padding: 10px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  height: 7px;
+  vertical-align:text-top;
+  text-align: left;
+  color: white;
+}
